@@ -1,0 +1,528 @@
+@media only screen and (max-width:320px){
+
+    @font-face {
+    font-family: FontOne;
+    src: url(Fonts\GothicA1-Regular.ttf);
+ }
+
+ body
+ {
+    background-position: center center;
+    background-size: 1000px 1000px;
+    background-color: #2A2B30;
+ }
+
+#background{
+    background-color: #2F303A !important;
+}
+
+#header{
+    background-color: #2A2B30!important;
+    padding-left: 0%;
+}
+
+#header.header{
+    padding-bottom: 13%;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+#logo{
+    width: 83px;
+    height: 74px;
+}
+
+#Home {
+   color: white;
+   text-decoration: none;
+   padding-left: 25px;
+   margin-top: 2.4%;
+   position: absolute;
+   font-family: 'Gill Sans';
+   font-weight: normal;
+   font-size: medium;
+}
+
+#AboutUs {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    margin-top: 39px;
+    position: absolute;
+    font-family: 'Gill Sans';
+    font-weight: normal;
+    font-size: medium;
+}
+
+#ContactUs {
+    color: white;
+    text-decoration: none;
+    padding-left: 3px;
+    margin-top: 72px;
+    position: absolute;
+    font-family: 'Gill Sans';
+    font-weight: normal;
+    font-size: medium;
+}
+
+#Login{
+    background-color: #aba89c3f;
+    border: none;
+    color: white;
+    margin-left: 115px;
+    margin-top: 15px;
+    padding: 5px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 11px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#Register{
+    background-color: #B19E58;
+    border: none;
+    color: white;
+    margin-left: 113px;
+    margin-top: 54px;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Yu Gothic;
+    font-size: 11px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#GameOptions {
+    background-color: #B19E58!important;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 131px;
+    font-size: xx-large;
+    padding-top: 1%;
+}
+
+.header #GameOptions ul a span{
+    color: white;
+    text-decoration: none;
+    padding-left: 23%;
+    margin-top: 3.6%;
+    position: absolute;
+    font-size: larger;
+}
+
+#GameOptions ul rth {
+    float: left;
+    background-color: #B19E58!important;
+    margin-left: -53px;
+    height: 69px;
+    padding-top: 1%;
+    width: 326px;
+    padding-right: 33px;
+}
+
+#divider{
+    margin-left: -23px;
+}
+
+#dividerTwo{
+    margin-left: 11px;
+}
+
+#dividerThree{
+    margin-left: 17px;
+}
+
+#TableGamesOption {
+    margin-left: 20px;
+    font-size: large;
+}
+
+#logoOne{
+    margin-right: 25px;
+    margin-left: 11px;
+    width: 43px;
+    height: 44px;
+}
+
+#GamingMachinesOption {
+    margin-left: 4px;
+    font-size: large;
+}
+
+#logoTwo{
+    margin-right: 33px;
+    width: 52px;
+    height: 28px;
+}
+
+.carousel-control-prev-icon{
+    margin-top: 255px;
+}
+
+.carousel-control-next-icon{
+    margin-top: 255px;
+}
+
+#casino{
+    width: 372px !important;
+    height: 290px;
+}
+#roulette{
+    width: 372px !important;
+    height: 290px;
+}
+#SlotMachine{
+    width: 372px !important;
+    height: 290px;   
+}
+#bigsixwheel{
+    width: 372px !important;
+    height: 290px; 
+}
+#videopoker{
+    width: 372px !important;
+    height: 290px;
+}
+
+#PictureAd{
+    font-size: 14px;
+    color: #B19E58!important;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    position: absolute;
+    bottom: 123px;
+    left: 10px;
+}
+#PictureDesc{
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    position: absolute;
+    bottom: 77px;
+    left: 10px;
+    width: 152px;
+}
+#TableGames{
+    font-size: large;
+    font-family: Arial;
+    letter-spacing: 8px;
+    position: center !important;
+    background-color: #2F303A!important;
+    margin-left: -14px;
+}
+
+#star{
+    padding-right: 26px;
+}
+
+#Back
+{
+    background-color: #2F303A!important;
+}
+
+.image-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin-left: 4.5%;
+}
+
+.image-containerOne {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin-right: 3%;
+}
+
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+    margin-top: 270px;
+    height: 30px;
+    width: 513px;
+}
+.image-container .after1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .after1 {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+    margin-top: 270px;
+    height: 30px;
+    width: 513px;
+    margin-left: 11px;
+}
+
+#Section1{
+    height: 258px;
+    width: 274px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#RouletteOG{
+    width: 231px;
+    height: 202px;
+}
+
+#RouletteTitle{
+    padding-left: 92px;
+    font-size: large;
+    font-family: 'Segoe UI Symbol';
+    width: 50%;
+    margin-top: -94px; 
+}
+
+#RouletteDesc{
+    visibility: hidden;
+}
+
+#Section2{
+    height: 258px;
+    width: 274px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#BlackjackOG{
+    width: 231px;
+    height: 202px;
+    margin-left: -22px;
+}
+
+#BlackjackTitle{
+    padding-left: 27px;
+    font-size: large;
+    font-family: 'Segoe UI Symbol';
+    width: 50%;
+    margin-top: -94px;
+}
+
+#BlackjackDesc{
+    visibility: hidden;
+}
+#Section3{
+    height: 258px;
+    width: 274px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#PokerOG{
+    width: 231px;
+    height: 202px;
+}
+
+#PokerTitle{
+    padding-left: 110px;
+    font-size: large;
+    font-family: 'Segoe UI Symbol';
+    width: 50%;
+    margin-top: -94px;  
+}
+
+#PokerDesc{
+    visibility: hidden;
+}
+
+#Section4{
+    height: 258px;
+    width: 274px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#BigSixWheelOG{
+    width: 231px;
+    height: 202px;
+    margin-left: -22px;
+}
+
+#BigSixWheelTitle{
+    padding-left: 18px;
+    font-size: large;
+    font-family: 'Segoe UI Symbol';
+    width: 178px;
+    margin-top: -94px;
+}
+
+#BigSixWheelDesc{
+    visibility: hidden;
+}
+
+#GamingMachines{
+    margin-top: 1018px;
+    font-size: large;
+    font-family: Arial;
+    letter-spacing: 10px;
+    background-color: #2F303A!important;
+    margin-right: 40px;
+    width: 256px;
+}   
+
+#Section5{
+    height: 258px;
+    width: 274px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#SlotMachineOG{
+    width: 231px;
+    height: 202px;
+}
+
+#SlotMachineTitle{
+    padding-left: 76px;
+    font-size: large;
+    font-family: 'Segoe UI Symbol';
+    width: 234px;
+    margin-top: -94px;
+}
+
+#SlotMachineDesc{
+    visibility: hidden;
+}
+
+#Section6{
+    width: 231px;
+    height: 202px;
+    margin-left: -22px;
+}
+
+#VideoPokerOG{
+    width: 231px;
+    height: 202px;
+    margin-left: -63px;
+}
+
+#VideoPokerTitle{
+    margin-left: -62px;
+    font-size: large;
+    font-family: 'Segoe UI Symbol';
+    width: 208px;
+    margin-top: -94px;
+}
+
+#VideoPokerDesc{
+    visibility: hidden;
+}
+#AboutUsOG{
+    margin-top: 500px;
+    font-size: xx-large;
+    font-family: Arial;
+    letter-spacing: 10px;
+    background-color: #2F303A!important;
+    margin-left: -12px;
+}   
+
+#Section7{
+    background-color: #2F303A;
+    color: #8B8282;
+    word-wrap: normal;
+    width: 297px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: medium;
+    font-weight: lighter;
+    float: left;
+    margin-left: 18px;
+}
+#BottomDesc{
+    background-color: #2F303A;
+}
+
+#Bot{
+    background-color: #2A2B30!important;
+    padding-bottom: 2%;
+}
+#BottomTitle{
+    font-size: xx-large;
+    font-family: 'Segoe UI Symbol'; 
+    width: 70%;
+    padding-left: 4%;  
+}
+
+#BottomDesc{
+    background-color: #2A2B30!important;
+    word-wrap: normal;
+    width: 545px;
+    padding-right: 40px;
+    text-align: left;
+    font-size: x-large;
+    font-weight: lighter;
+    padding-left: 4%;
+}
+#BottomDescTwo{
+    background-color: #2A2B30!important;
+    word-wrap: normal;
+    width: 317px;
+    padding-right: 40px;
+    text-align: left;
+    font-size: x-large;
+    font-weight: lighter;
+    padding-left: 4%;
+}
+
+#RegisterForm{
+    margin-top: 190px;
+    background-color: #2F303A!important;
+    margin-bottom: 40px;
+    width: 279px;
+    margin-left: 10px;
+}
+
+#registerbtn {
+    background-color: #9E9045;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+#emailid{
+    padding-right: 93px;
+}
+  
+
+
+}
+
+
+

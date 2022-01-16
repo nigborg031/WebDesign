@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href= "stylesheets/WebDesignstylesheet.css">
+    <link rel= "stylesheet" href= "stylesheets/mobilestylesheet.css">
+    <link rel= "stylesheet" href= "stylesheets/tabletstylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function loginLoad(){
+        alert("You are logged in");
+      }
+
+      $(document).ready(function() {  //ask teacher about it crashes when clicking on submit
+        $("#basic-form").validate({
+          rules: {
+            name : {
+            required: true,
+            minlength: 3
+          },
+            surname : {
+            required: true,
+            minlength: 3
+          },
+            mobile: {
+            required: true,
+            minlength: 8,
+          },
+            email: {
+            required: true,
+            email: true
+          },
+    },
+    messages: {
+      name: {
+        minlength: "Name should be at least 3 characters"
+      },
+      surname: {
+        minlength: "Surname should be at least 3 characters"
+      },
+      mobile: {
+        required: "Please enter your mobile number",
+        minlength: "The mobile number should at least be 8 characters"
+      },
+      email: {
+        email: "The email should be in the format: abc@domain.tld"
+      }
+    }
+  });
+});
+      function check(){
+        alert("You have registered an account");
+      }
+
+      function pageLoad(){
+
+        alert("The page loads here");
+
+        window.open("https://en.wikipedia.org/wiki/Roulette");
+
+    }
+      function pageLoadone(){
+
+        alert("The page loads here");
+
+        window.open("https://en.wikipedia.org/wiki/Blackjack");
+
+    }
+      function pageLoadtwo(){
+
+        alert("The page loads here");
+
+        window.open("https://en.wikipedia.org/wiki/Poker");
+
+    }
+      function pageLoadthree(){
+
+        alert("The page loads here");
+
+        window.open("https://en.wikipedia.org/wiki/Big_Six_wheel");
+
+    }
+      function pageLoadfour(){
+
+        alert("The page loads here");
+
+        window.open("https://en.wikipedia.org/wiki/Slot_machine");
+
+    }
+      function pageLoadfive(){
+
+        alert("The page loads here");
+
+        window.open("https://en.wikipedia.org/wiki/Video_poker");
+
+    }
+    </script>
+    <title>WebDesignCasinoAssignment</title>
+</head>
+<style>
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    body {
+      background-color: #2F303A !important;
+    }
+
+    logo.style {
+      width: 92px;
+      height: 80px;
+    }
+
+</style>
+<body>
+    <div id= "background" class="demo">
+        <div id= "header" class="header">
+            <img class="logo" id= "logo" src= Images\Logo.png alt = "Diamond Casino" width= "143" height="104">
+              <a id= "Home" class="active" href="#home">HOME</a>
+              <a id= "AboutUs" href="#AboutUsOG">ABOUT US</a>
+              <a id= "ContactUs" href="#BottomTitle">CONTACT US</a>
+
+              <button id= "Login" type="button" onclick="loginLoad()"> <b>Log In</b> </button>
+              <a href="#RegisterForm" alt="RegisterForm" id= "Register" type="button" href= "#RegisterForm"> <b>Register</b></a> </button>
+            </div>
+        <div id= "GameOptions" class="header">
+            <ul>
+                <span id="divider"> | </span> 
+                <a href="#TableGames" alt="TableGamesSub" title="TableGamesSub"> <span id= "TableGamesOption"> TABLE GAMES </span> 
+                <img id= "logoOne" src= Assignments\tablegames.png alt = "table_games_logo" width= "57" height="60"></src> 
+                </a> 
+                <span id="dividerTwo"> | </span> 
+
+                <rth> <span id="divider"> | </span> 
+                <a href="#GamingMachines" alt="GamingMachinesSub" title="GamingMachinesSub" class="right"> <span id= "GamingMachinesOption"> GAMING MACHINES </span> 
+                <img id= "logoTwo" src= Assignments\gaming_machines.png alt = "gaming_machines_logo" width= "105" height="60"></src> 
+                </a> 
+                <span id="dividerThree"> | </span> 
+                </rth>
+            </ul>           
+        </div>
+    
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <div id="carousel-indicators" class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+          </div>
+        
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div id = "PictureAd" class= text-white>TRY YOUR LUCK</div>
+              <div id= "PictureDesc" class=text-white>CASH PRIZES TO BE WON</div>
+              <img id= casino src="Assignments\casino.jpg" alt="Casino" class="mx-auto d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <div id = "PictureAd" class= text-white>TRY YOUR LUCK</div>
+              <div id= "PictureDesc" class=text-white>CASH PRIZES TO BE WON</div>
+              <img id= roulette src="Assignments\Roulette.jpg" alt="Roulette" class="mx-auto d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <div id = "PictureAd" class= text-white>TRY YOUR LUCK</div>
+              <div id= "PictureDesc" class=text-white>CASH PRIZES TO BE WON</div>
+              <img id=SlotMachine src="Assignments\Slot_Machine.jpg" alt="SlotMachine" class="mx-auto d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <div id = "PictureAd" class= text-white>TRY YOUR LUCK</div>
+              <div id= "PictureDesc" class=text-white>CASH PRIZES TO BE WON</div>
+             <img id= bigsixwheel src="Assignments\Big-Six-Wheel.jpg" alt="bigsixwheel" class="mx-auto d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <div id = "PictureAd" class= text-white>TRY YOUR LUCK</div>
+              <div id= "PictureDesc" class=text-white>CASH PRIZES TO BE WON</div>
+             <img id=videopoker src="Assignments\video-poker.jpg" alt="videopoker" class="mx-auto d-block" style="width:100%">
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+        <div id= TableGames class="container-fluid p-2 bg-primary text-white text-center">
+          <br>
+          TABLE GAMES
+
+          <br>
+          
+         <img id="star" src= Images\star.png alt = "star" width= "213" height="50" class= center></src>
+
+        </div>
+
+
+        <br>
+        <section>
+          <div id= "Back" class= "center">
+
+        <section>
+          <div id= "Section1" class= "center">
+            <div class="image-container">
+              <img id="RouletteOG" src= Assignments\Roulette.jpg alt = "RouletteIMG" width= "513" height="300" class= center onclick="pageLoad()"></src>
+              <div class="after1">Try Game</div> 
+          </div>
+          <div id="RouletteTitle" class=text-white>ROULETTE</div>
+            <div id= "RouletteDesc" class=text-white>
+              At the heart of the casino floor, one of our most popular table games is roulette. It's enjoyable, engaging, and simple to play. Even or Odd, red or black. Place your bets.
+              </div>
+          </div>
+      </section>
+                      
+      <section>
+          <div id= "Section2" class= "center">
+            <div class="image-container">
+              <img id="BlackjackOG" src= Assignments\blackjack.jpg alt = "BlackjackIMG" width= "513" height="300" class= center onclick="pageLoadone()"></src>
+              <div class="after">Try Game</div> 
+          </div>             
+            <div id="BlackjackTitle" class=text-white>BLACKJACK</div>
+           
+            <div id= "BlackjackDesc" class=text-white>
+              Blackjack, also known as twenty-one, is the most widely played casino card game in the world. Experience the thrill of Black Jack at the Diamond Casino in an ambience like no other.
+            </div>
+          </div>
+      </section>
+
+      <section>
+        <div id= "Section3" class= "centerr">
+          <div class="image-container">
+            <img id="PokerOG" src= Assignments\POKER.jpg alt = "PokerIMG" width= "513" height="300" class= center onclick="pageLoadtwo()"></src>
+            <div class="after1">Try Game</div> 
+        </div>  
+          <div id="PokerTitle" class=text-white>POKER</div>
+
+          <div id= "PokerDesc" class=text-white>
+            Poker is a family of card games in which players wager over which hand is best according to that specific game's rules in ways similar to these rankings. Such Poker Games that can be played at our casino are: “Texas Hold' Em” and “Three Card Poker”
+            </div>
+        </div>
+    </section>
+                    
+    <section>
+        <div id= "Section4" class= "center">
+          <div class="image-container">
+            <img id="BigSixWheelOG" src= Assignments\Big-Six-Wheel.jpg alt = "BigSixWheelIMG" width= "513" height="300" class= center onclick="pageLoadthree()"></src>
+            <div class="after">Try Game</div> 
+        </div> 
+          <div id="BigSixWheelTitle" class=text-white>BIG SIX WHEEL</div>
+         
+          <div id= "BigSixWheelDesc" class=text-white>
+            The Big Six wheel, also known as The Big Six or The Wheel of Fortune, is an unequal game of chance. It is played using a large vertical wheel that can be spun and with certain luck the odds of winning are as good as they get! So come test your luck out at Diamond Casino!!
+          </div>
+        </div>
+    </section>
+
+    <br>
+
+    <div id= GamingMachines class="container-fluid p-2 bg-primary text-white text-center">
+      <br>
+      GAMING MACHINES
+
+      <br>
+      
+     <img id="star" src= Images\star.png alt = "star" width= "213" height="50" class= center></src>
+
+    </div>
+
+
+    <section>
+      <div id= "Section5" class= "center">
+        <div class="image-container">
+          <img id="SlotMachineOG" src= Assignments\Slot_Machine.jpg alt = "SlotMachineIMG" width= "513" height="300" class= center onclick="pageLoadfour()"></src>
+          <div class="after1">Try Game</div> 
+      </div>
+        <div id="SlotMachineTitle" class=text-white>SLOT MACHINE</div>
+
+        <div id= "SlotMachineDesc" class=text-white>
+          Like the old school slot machines we feature the usual assortment of aces, lucky horseshoes and wild symbols. All you need is to line up three matching symbols on a single payline. Just set your coin value and come test your luck at getting three in a row!
+          </div>
+      </div>
+  </section>
+                  
+  <section>
+      <div id= "Section6" class= "center">
+        <div class="image-container">
+          <img id="VideoPokerOG" src= Assignments\blackjack.jpg alt = "VideoPokerIMG" width= "513" height="300" class= center onclick="pageLoadfive()"></src>
+          <div class="after">Try Game</div> 
+      </div>
+          
+        <div id="VideoPokerTitle" class=text-white>VIDEO POKER</div>
+       
+        <div id= "VideoPokerDesc" class=text-white>
+          Just like poker, you can also play poker from our video poker machines. They are mainly based on five card draw poker but we offer several variations such as: “Deuces Wild” and “Double Bonus”
+        </div>
+      </div>
+  </section>
+
+  <div id= "AboutUsOG" class="container-fluid p-2 bg-primary text-white text-center">
+    <br>
+    ABOUT US
+
+    <br>
+    
+   <img id="star" src= Images\star.png alt = "star" width= "213" height="50" class= center></src>
+
+  </div>
+
+  <section>
+    <div id= "Section7" class= "center">
+      <div id= "AboutUsDesc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+      </div>
+    </div>
+</section>
+
+        </div>
+        </section> 
+
+  <section>
+    <br>
+    <br>
+
+      <div id= "RegisterForm" class="container-fluid p-2 bg-primary text-white text-left">
+        <form id="basic-form" action="#">
+          <h1>Register</h1>
+          <p>Please fill in this form to register an account.</p>
+          <p>
+            <label for="firstname">Name <span>(required, at least 3 characters)</span></label>
+            <input id="name" name="name" minlength="3" type="text" required>
+          </p>
+          <p>
+            <label for="surname">Surname <span>(required, at least 3 characters)</span></label>
+            <input id="surname" name="surname" minlength="3" type="text" required>
+          </p>
+          <p>
+            <label for="mobile">Mobile <span>(required, at least 8 characters)</span></label>
+            <input id="mobile" name="mobile" minlength="8" type="text" required>
+          </p>
+          <p>
+            <label id="emailid" for="email">E-Mail <span id="required">(required)</span></label>
+            <input id="email" type="email" name="email" required>
+          </p>
+          <p>
+            <input class="submit" type="submit" value="SUBMIT" onclick= check();> 
+          </p>
+      </form>
+            
+            
+        </div> 
+  </section>
+
+  
+
+      <section>
+        
+        <div id= "Bot" class= "center">
+
+        <br>
+
+          <div id="BottomTitle" class=text-white>CONTACT US</div>
+
+        <br>
+       
+        <div id= "BottomDesc" class=text-white>
+          Where are we located:      
+        </div>
+
+        <div id= "BottomDescTwo" class=text-white>
+          Diamond Casino, Level 3 El Gran Tesoro, St. Julians, STJ1109 Malta
+          <br>
+          Contact information: <br> 
+          Email: diamondocasino@hotmail.com <br>
+          Telephone Number: (+356) 2124 9201
+        </div>
+        
+        
+        </div>
+      </section>          
+      
+</body>
+</html>
